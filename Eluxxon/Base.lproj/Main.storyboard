@@ -52,7 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="onOffLbl" destination="dAb-ad-m7C" id="GHi-he-U4b"/>
-                        <outlet property="toggleBtn" destination="dAb-ad-m7C" id="gzD-Sn-p7I"/>
+                        <outlet property="toggleBtn" destination="VbG-YA-bqU" id="WcV-eh-6fI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
