@@ -15,6 +15,7 @@
 		CDA620F22004D72C00F73974 /* EluxxonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620F12004D72C00F73974 /* EluxxonTests.swift */; };
 		CDA620FD2004D72C00F73974 /* EluxxonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620FC2004D72C00F73974 /* EluxxonUITests.swift */; };
 		CDA6210D2004DF5700F73974 /* SwitchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6210C2004DF5700F73974 /* SwitchStatus.swift */; };
+		CDA6210F2004E02300F73974 /* Togglable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6210E2004E02300F73974 /* Togglable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CDA620FC2004D72C00F73974 /* EluxxonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EluxxonUITests.swift; sourceTree = "<group>"; };
 		CDA620FE2004D72C00F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA6210C2004DF5700F73974 /* SwitchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatus.swift; sourceTree = "<group>"; };
+		CDA6210E2004E02300F73974 /* Togglable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Togglable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		CDA6210B2004DF2800F73974 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				CDA6210E2004E02300F73974 /* Togglable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				CDA620DF2004D72C00F73974 /* ViewController.swift in Sources */,
 				CDA620DD2004D72C00F73974 /* AppDelegate.swift in Sources */,
 				CDA6210D2004DF5700F73974 /* SwitchStatus.swift in Sources */,
+				CDA6210F2004E02300F73974 /* Togglable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
