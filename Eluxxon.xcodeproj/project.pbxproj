@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA620DD2004D72C00F73974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620DC2004D72C00F73974 /* AppDelegate.swift */; };
+		CDA620DF2004D72C00F73974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620DE2004D72C00F73974 /* ViewController.swift */; };
+		CDA620E22004D72C00F73974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA620E02004D72C00F73974 /* Main.storyboard */; };
+		CDA620E42004D72C00F73974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA620E32004D72C00F73974 /* Assets.xcassets */; };
+		CDA620E72004D72C00F73974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA620E52004D72C00F73974 /* LaunchScreen.storyboard */; };
+		CDA620F22004D72C00F73974 /* EluxxonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620F12004D72C00F73974 /* EluxxonTests.swift */; };
+		CDA620FD2004D72C00F73974 /* EluxxonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620FC2004D72C00F73974 /* EluxxonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA620EE2004D72C00F73974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA620D12004D72C00F73974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA620D82004D72C00F73974;
+			remoteInfo = Eluxxon;
+		};
+		CDA620F92004D72C00F73974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA620D12004D72C00F73974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA620D82004D72C00F73974;
+			remoteInfo = Eluxxon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDA620D92004D72C00F73974 /* Eluxxon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eluxxon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA620DC2004D72C00F73974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDA620DE2004D72C00F73974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDA620E12004D72C00F73974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDA620E32004D72C00F73974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA620E62004D72C00F73974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDA620E82004D72C00F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA620ED2004D72C00F73974 /* EluxxonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EluxxonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA620F12004D72C00F73974 /* EluxxonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EluxxonTests.swift; sourceTree = "<group>"; };
+		CDA620F32004D72C00F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA620F82004D72C00F73974 /* EluxxonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EluxxonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA620FC2004D72C00F73974 /* EluxxonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EluxxonUITests.swift; sourceTree = "<group>"; };
+		CDA620FE2004D72C00F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA620D62004D72C00F73974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620EA2004D72C00F73974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620F52004D72C00F73974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA620D02004D72C00F73974 = {
+			isa = PBXGroup;
+			children = (
+				CDA620DB2004D72C00F73974 /* Eluxxon */,
+				CDA620F02004D72C00F73974 /* EluxxonTests */,
+				CDA620FB2004D72C00F73974 /* EluxxonUITests */,
+				CDA620DA2004D72C00F73974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA620DA2004D72C00F73974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA620D92004D72C00F73974 /* Eluxxon.app */,
+				CDA620ED2004D72C00F73974 /* EluxxonTests.xctest */,
+				CDA620F82004D72C00F73974 /* EluxxonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA620DB2004D72C00F73974 /* Eluxxon */ = {
+			isa = PBXGroup;
+			children = (
+				CDA620DC2004D72C00F73974 /* AppDelegate.swift */,
+				CDA620DE2004D72C00F73974 /* ViewController.swift */,
+				CDA620E02004D72C00F73974 /* Main.storyboard */,
+				CDA620E32004D72C00F73974 /* Assets.xcassets */,
+				CDA620E52004D72C00F73974 /* LaunchScreen.storyboard */,
+				CDA620E82004D72C00F73974 /* Info.plist */,
+			);
+			path = Eluxxon;
+			sourceTree = "<group>";
+		};
+		CDA620F02004D72C00F73974 /* EluxxonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA620F12004D72C00F73974 /* EluxxonTests.swift */,
+				CDA620F32004D72C00F73974 /* Info.plist */,
+			);
+			path = EluxxonTests;
+			sourceTree = "<group>";
+		};
+		CDA620FB2004D72C00F73974 /* EluxxonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA620FC2004D72C00F73974 /* EluxxonUITests.swift */,
+				CDA620FE2004D72C00F73974 /* Info.plist */,
+			);
+			path = EluxxonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA620D82004D72C00F73974 /* Eluxxon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA621012004D72C00F73974 /* Build configuration list for PBXNativeTarget "Eluxxon" */;
+			buildPhases = (
+				CDA620D52004D72C00F73974 /* Sources */,
+				CDA620D62004D72C00F73974 /* Frameworks */,
+				CDA620D72004D72C00F73974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eluxxon;
+			productName = Eluxxon;
+			productReference = CDA620D92004D72C00F73974 /* Eluxxon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA620EC2004D72C00F73974 /* EluxxonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA621042004D72C00F73974 /* Build configuration list for PBXNativeTarget "EluxxonTests" */;
+			buildPhases = (
+				CDA620E92004D72C00F73974 /* Sources */,
+				CDA620EA2004D72C00F73974 /* Frameworks */,
+				CDA620EB2004D72C00F73974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA620EF2004D72C00F73974 /* PBXTargetDependency */,
+			);
+			name = EluxxonTests;
+			productName = EluxxonTests;
+			productReference = CDA620ED2004D72C00F73974 /* EluxxonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDA620F72004D72C00F73974 /* EluxxonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA621072004D72C00F73974 /* Build configuration list for PBXNativeTarget "EluxxonUITests" */;
+			buildPhases = (
+				CDA620F42004D72C00F73974 /* Sources */,
+				CDA620F52004D72C00F73974 /* Frameworks */,
+				CDA620F62004D72C00F73974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA620FA2004D72C00F73974 /* PBXTargetDependency */,
+			);
+			name = EluxxonUITests;
+			productName = EluxxonUITests;
+			productReference = CDA620F82004D72C00F73974 /* EluxxonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA620D12004D72C00F73974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ibrahim Mbaziira";
+				TargetAttributes = {
+					CDA620D82004D72C00F73974 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CDA620EC2004D72C00F73974 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDA620D82004D72C00F73974;
+					};
+					CDA620F72004D72C00F73974 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDA620D82004D72C00F73974;
+					};
+				};
+			};
+			buildConfigurationList = CDA620D42004D72C00F73974 /* Build configuration list for PBXProject "Eluxxon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA620D02004D72C00F73974;
+			productRefGroup = CDA620DA2004D72C00F73974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA620D82004D72C00F73974 /* Eluxxon */,
+				CDA620EC2004D72C00F73974 /* EluxxonTests */,
+				CDA620F72004D72C00F73974 /* EluxxonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA620D72004D72C00F73974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620E72004D72C00F73974 /* LaunchScreen.storyboard in Resources */,
+				CDA620E42004D72C00F73974 /* Assets.xcassets in Resources */,
+				CDA620E22004D72C00F73974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620EB2004D72C00F73974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620F62004D72C00F73974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA620D52004D72C00F73974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620DF2004D72C00F73974 /* ViewController.swift in Sources */,
+				CDA620DD2004D72C00F73974 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620E92004D72C00F73974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620F22004D72C00F73974 /* EluxxonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620F42004D72C00F73974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620FD2004D72C00F73974 /* EluxxonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA620EF2004D72C00F73974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA620D82004D72C00F73974 /* Eluxxon */;
+			targetProxy = CDA620EE2004D72C00F73974 /* PBXContainerItemProxy */;
+		};
+		CDA620FA2004D72C00F73974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA620D82004D72C00F73974 /* Eluxxon */;
+			targetProxy = CDA620F92004D72C00F73974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA620E02004D72C00F73974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA620E12004D72C00F73974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA620E52004D72C00F73974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA620E62004D72C00F73974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA620FF2004D72C00F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDA621002004D72C00F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA621022004D72C00F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = Eluxxon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackAdvantage.Eluxxon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA621032004D72C00F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = Eluxxon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackAdvantage.Eluxxon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDA621052004D72C00F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = EluxxonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackAdvantage.EluxxonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eluxxon.app/Eluxxon";
+			};
+			name = Debug;
+		};
+		CDA621062004D72C00F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = EluxxonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackAdvantage.EluxxonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eluxxon.app/Eluxxon";
+			};
+			name = Release;
+		};
+		CDA621082004D72C00F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = EluxxonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackAdvantage.EluxxonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eluxxon;
+			};
+			name = Debug;
+		};
+		CDA621092004D72C00F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = EluxxonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackAdvantage.EluxxonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eluxxon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA620D42004D72C00F73974 /* Build configuration list for PBXProject "Eluxxon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA620FF2004D72C00F73974 /* Debug */,
+				CDA621002004D72C00F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA621012004D72C00F73974 /* Build configuration list for PBXNativeTarget "Eluxxon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA621022004D72C00F73974 /* Debug */,
+				CDA621032004D72C00F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA621042004D72C00F73974 /* Build configuration list for PBXNativeTarget "EluxxonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA621052004D72C00F73974 /* Debug */,
+				CDA621062004D72C00F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA621072004D72C00F73974 /* Build configuration list for PBXNativeTarget "EluxxonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA621082004D72C00F73974 /* Debug */,
+				CDA621092004D72C00F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA620D12004D72C00F73974 /* Project object */;
+}
