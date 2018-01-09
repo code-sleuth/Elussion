@@ -14,6 +14,7 @@
 		CDA620E72004D72C00F73974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA620E52004D72C00F73974 /* LaunchScreen.storyboard */; };
 		CDA620F22004D72C00F73974 /* EluxxonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620F12004D72C00F73974 /* EluxxonTests.swift */; };
 		CDA620FD2004D72C00F73974 /* EluxxonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620FC2004D72C00F73974 /* EluxxonUITests.swift */; };
+		CDA6210D2004DF5700F73974 /* SwitchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6210C2004DF5700F73974 /* SwitchStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CDA620F82004D72C00F73974 /* EluxxonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EluxxonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA620FC2004D72C00F73974 /* EluxxonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EluxxonUITests.swift; sourceTree = "<group>"; };
 		CDA620FE2004D72C00F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA6210C2004DF5700F73974 /* SwitchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,8 @@
 		CDA620DB2004D72C00F73974 /* Eluxxon */ = {
 			isa = PBXGroup;
 			children = (
+				CDA6210B2004DF2800F73974 /* Protocols */,
+				CDA6210A2004DF1500F73974 /* Enums */,
 				CDA620DC2004D72C00F73974 /* AppDelegate.swift */,
 				CDA620DE2004D72C00F73974 /* ViewController.swift */,
 				CDA620E02004D72C00F73974 /* Main.storyboard */,
@@ -123,6 +127,21 @@
 				CDA620FE2004D72C00F73974 /* Info.plist */,
 			);
 			path = EluxxonUITests;
+			sourceTree = "<group>";
+		};
+		CDA6210A2004DF1500F73974 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CDA6210C2004DF5700F73974 /* SwitchStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CDA6210B2004DF2800F73974 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 			files = (
 				CDA620DF2004D72C00F73974 /* ViewController.swift in Sources */,
 				CDA620DD2004D72C00F73974 /* AppDelegate.swift in Sources */,
+				CDA6210D2004DF5700F73974 /* SwitchStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
